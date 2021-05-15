@@ -1,4 +1,4 @@
-# muisc-player
+# music-player
 
 ## Purpose : don't want advertisement when listening to the music.
 
