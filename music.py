@@ -54,7 +54,7 @@ def play():
 
     pygame.quit()
 
-def stop():
+def next():
     pygame.mixer.music.stop()
 
 
@@ -81,17 +81,18 @@ def echo_hello():
 
 music_player = tkr.Tk()
 music_player.title("Music Player")
-music_player.geometry("500x500")
+
 
 directory = askdirectory()
 os.chdir(directory) #it permits to chenge the current dir
 song_list = os.listdir() #it returns the list of files song
-
+height = str(500+len(song_list)*10)
+music_player.geometry("500x"+height)
 play_list = tkr.Listbox(music_player, font="Helvetica 12 bold", bg="yellow", selectmode=tkr.SINGLE)
 for item in song_list:
-    pos = 0
+    pos = len(song_list)-1
     play_list.insert(pos, item)
-    pos += 1
+    
 
 pygame.init()
 pygame.mixer.init()
@@ -106,6 +107,8 @@ Button2 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", 
 Button3 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="PAUSE", command=pause, bg="purple", fg="white")
 Button4 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="UNPAUSE", command=unpause, bg="orange", fg="white")
 Button5 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="LOOP", command=loop, bg="green", fg="white")
+Button6 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="NEXT", command=next, bg="green", fg="white")
+
 
 
 
@@ -118,5 +121,6 @@ Button2.pack(fill="x")
 Button3.pack(fill="x")
 Button4.pack(fill="x")
 Button5.pack(fill="x")
+Button6.pack(fill="x")
 play_list.pack(fill="both", expand="yes")
 music_player.mainloop()
