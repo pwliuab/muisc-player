@@ -1,7 +1,11 @@
-# music-player
-
+## music-player
 ## Purpose : don't want advertisement when listening to the music.
+### How to run it??
+### - Step one, create a folder and download all the mp4 music file into it.
 
-### you may run it using Vs code or run command python music.py in command prompt
 
-### you may download mp3 or mp4 music video, put it into a folder, then select the folder when you run music.py
+
+![](pciture/QU2@$F@B1{`S(1$WO912]YF.png)
+
+
+![](pciture/VC`@WQD_@KHUO]}5~[2AP{3.png)
