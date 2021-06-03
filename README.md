@@ -19,4 +19,6 @@
 ![](pciture/UI.png)
 
 - Click the music name that you want to play, then Click "Play button"
-- Or you may want to click "Loop" function
+- Then Click "Loop" if you want to loop your favorite sound!
+- btw the whole play list are default loop the whole playlist
+- you can click stop if you want to end the program.
