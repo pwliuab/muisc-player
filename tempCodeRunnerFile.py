@@ -1,2 +1,2 @@
 
-for item in song_list:
+    print("The current track is :", current_track)
