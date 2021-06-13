@@ -2,7 +2,7 @@
 ## Purpose : don't want advertisement when listening to the music.
 ### How to run it??
 - Step 1, create a folder and download all the mp4 music file into it.
-- PS : py -m pip install -U pygame==1.9.6 --user for Windows user reference http://help.codakid.com/en/articles/2551585-how-to-install-pygame
+- PS pygame libary installation: py -m pip install -U pygame==1.9.6 --user ( http://help.codakid.com/en/articles/2551585-how-to-install-pygame)
 ![](pciture/folder.png)
 
 
