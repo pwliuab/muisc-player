@@ -14,9 +14,10 @@ Do not want advertisement to interrupt your music.
 - pygame libary installation: py -m pip install -U pygame==1.9.6 --user 
 - For pygame installation details :( http://help.codakid.com/en/articles/2551585-how-to-install-pygame)
 - Step 1, create a folder and download all the mp4 music file into it.
-![](pciture/folder.png)
 
 ```
+
+![](pciture/folder.png)
 
 ![](pciture/VC`@WQD_@KHUO]}5~[2AP{3.png)
 <hr>
